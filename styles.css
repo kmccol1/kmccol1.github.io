@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    background-color: #f8f4e3;
+    color: #4a2c2a;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #b35a2e;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    word-wrap: break-word; /* Ensure long words break into the next line */
+    margin: 0; /* Added margin reset */
+}
+
+h2 {
+    color: #8c4a3c;
+    font-style: italic;
+    word-wrap: break-word;
+    margin: 0; /* Added margin reset */
+}
+
+/* Profile image */
+.profile-img {
+    width: 100%;
+    max-width: 400px; /* Limit the image width */
+    height: auto;
+    object-fit: cover;
+    border: 8px solid #b35a2e;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease-in-out;
+    margin-top: 15px; /* Added margin to separate from header */
+}
+
+.profile-img:hover {
+    border-color: #d08a43; /* Change border color on hover for a subtle highlight effect */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Limit the maximum width of the page */
+    margin: 0 auto; /* Center align the content */
+    padding: 0 20px; /* Add some padding */
+}
+
+/* Section styling */
+section {
+    background: #fff7e6; /* Light, warm background for sections */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border: 1px solid #d08a43; /* Accent border in a warm amber color */
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: '🍂'; /* Falling leaf icon for a Thanksgiving touch */
+    margin-right: 10px;
+    color: #b35a2e; /* Orange to match the Thanksgiving theme */
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #d08a43;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #d08a43; /* Amber text for the footer */
+    background-color: #ffe5b4; /* Warm, soft background color */
+    padding: 10px 0;
+    border-radius: 5px;
+}
