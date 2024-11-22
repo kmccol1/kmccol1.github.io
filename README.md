@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# kmccol1.github.io
-=======
-
 ## kmccol1.github.io
 
-Welcome to my personal portfolio! This repository houses the source code for my personal website, built to showcase my skills, projects, and journey in web development and IT security. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
+Welcome to my repository! This repository houses the source code for my personal website, built to showcase my skills, projects, and journey in web development and IT security. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
 
 ![Portfolio Screenshot](./images/Screenshot_20241118_214223.png)
 
@@ -63,5 +59,4 @@ I'm always open to new opportunities, collaborations, or discussions about techn
 - **LinkedIn:** [Kyle McColgan](https://www.linkedin.com/in/kylemccolgan/)
 - **GitHub:** [kmccol1](https://github.com/kmccol1)
 
-Thank you for visiting my portfolio repository. I look forward to connecting!
->>>>>>> 33f231d (Re-upload files from the current website.)
+Thank you for visiting my repository. I look forward to connecting!

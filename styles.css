@@ -90,3 +90,20 @@ footer {
     padding: 10px 0;
     border-radius: 5px;
 }
+
+/* Ensure all elements respect the container width */
+.container, img, section, ul {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Prevent long words or links from causing overflow */
+section, li, p {
+    word-wrap: break-word;  /* Alternative: overflow-wrap: break-word; */
+    white-space: normal;
+}
+
+/* Use box-sizing to include padding and border in width calculations */
+* {
+    box-sizing: border-box;
+}
