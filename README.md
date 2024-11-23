@@ -2,11 +2,11 @@
 
 Welcome to my repository! This repository houses the source code for my personal website, built to showcase my skills, projects, and journey in web development and IT security. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
 
-![Portfolio Screenshot](./images/Screenshot_20241118_214223.png)
+![Portfolio Screenshot](./images/Screenshot_20241122_183232-1.png)
 
 ## About Me
 
-Hi, I'm Kyle McColgan—a developer and security enthusiast based in Saint Louis. I specialize in building efficient, user-friendly websites and secure, scalable network solutions. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
+Hi, I'm Kyle McColgan—a technology professional based in Saint Louis. I specialize in building efficient, user-friendly websites and secure, scalable network solutions. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
 
 I'm always excited to connect with others in the tech community. Whether it's collaborating on a project or sharing knowledge, let’s create something impactful together!
 
@@ -25,7 +25,7 @@ I am committed to crafting secure, scalable, and user-centric solutions in web d
 ### 1. [HostRecon](https://github.com/kmccol1/hostRecon)
 A C++ network scanner leveraging libpcap to detect active hosts, enhancing network security by identifying unauthorized devices.
 
-### 2. [Portfolio Website](https://kmccol1.github.io/kyle-mccolgan)
+### 2. [Portfolio Website](https://kmccol1.github.io/)
 A fully responsive HTML and CSS website showcasing my web development expertise. This repository contains its source code.
 
 ## Technologies Used
@@ -41,7 +41,7 @@ To explore the website locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/kmccol1/kyle-mccolgan.git
+    git clone https://github.com/kmccol1/kmccol1.github.io.git
     ```
 2. Open `index.html` in your browser to view the site.
 
