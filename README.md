@@ -1,12 +1,14 @@
-## kmccol1.github.io
+![Build Status](https://github.com/kmccol1/kmccol1.github.io/actions/workflows/autograding.yml/badge.svg)
 
-Welcome to my repository! This repository houses the source code for my personal website, built to showcase my skills, projects, and journey in web development and IT security. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
+# Kyle McColgan – Technology Professional
 
-![Portfolio Screenshot](./images/Screenshot_20241122_183232-1.png)
+Welcome to my repository! This repository houses the source code for my website, built to showcase my skills, projects, and journey in web development and IT security. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
+
+![Portfolio Screenshot](./images/Screenshot_20241202_215749.png)
 
 ## About Me
 
-Hi, I'm Kyle McColgan—a technology professional based in Saint Louis. I specialize in building efficient, user-friendly websites and secure, scalable network solutions. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
+Hi, I'm Kyle McColgan—a technology professional and security enthusiast based in Saint Louis. I specialize in building efficient, user-friendly websites and secure, scalable network solutions. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
 
 I'm always excited to connect with others in the tech community. Whether it's collaborating on a project or sharing knowledge, let’s create something impactful together!
 
@@ -25,7 +27,7 @@ I am committed to crafting secure, scalable, and user-centric solutions in web d
 ### 1. [HostRecon](https://github.com/kmccol1/hostRecon)
 A C++ network scanner leveraging libpcap to detect active hosts, enhancing network security by identifying unauthorized devices.
 
-### 2. [Portfolio Website](https://kmccol1.github.io/)
+### 2. [Portfolio Website](https://kmccol1.github.io/kyle-mccolgan)
 A fully responsive HTML and CSS website showcasing my web development expertise. This repository contains its source code.
 
 ## Technologies Used
@@ -41,7 +43,7 @@ To explore the website locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/kmccol1/kmccol1.github.io.git
+    git clone https://github.com/kmccol1/kyle-mccolgan.git
     ```
 2. Open `index.html` in your browser to view the site.
 
@@ -59,4 +61,4 @@ I'm always open to new opportunities, collaborations, or discussions about techn
 - **LinkedIn:** [Kyle McColgan](https://www.linkedin.com/in/kylemccolgan/)
 - **GitHub:** [kmccol1](https://github.com/kmccol1)
 
-Thank you for visiting my repository. I look forward to connecting!
+Thank you for visiting my portfolio repository. I look forward to connecting!
