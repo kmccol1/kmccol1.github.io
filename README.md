@@ -27,7 +27,7 @@ I am committed to crafting secure, scalable, and user-centric solutions in web d
 ### 1. [HostRecon](https://github.com/kmccol1/hostRecon)
 A C++ network scanner leveraging libpcap to detect active hosts, enhancing network security by identifying unauthorized devices.
 
-### 2. [Portfolio Website](https://kmccol1.github.io/kyle-mccolgan)
+### 2. [Portfolio Website](https://kmccol1.github.io/)
 A fully responsive HTML and CSS website showcasing my web development expertise. This repository contains its source code.
 
 ## Technologies Used
@@ -43,7 +43,7 @@ To explore the website locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/kmccol1/kyle-mccolgan.git
+    git clone https://github.com/kmccol1/kmccol1.github.io.git
     ```
 2. Open `index.html` in your browser to view the site.
 
