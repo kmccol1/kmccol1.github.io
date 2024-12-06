@@ -24,11 +24,11 @@ I am committed to crafting secure, scalable, and user-centric solutions in web d
 
 ## Key Projects
 
-### 1. [HostRecon](https://github.com/kmccol1/hostRecon)
-A C++ network scanner leveraging libpcap to detect active hosts, enhancing network security by identifying unauthorized devices.
+### 1. [Gratitude Journal](https://github.com/kmccol1/gratitude-journal-frontend)
+A full-stack web application built with Java Spring Boot and React, enabling users to record daily reflections. Designed with modern React features, a responsive layout, and a secure backend API, this project fosters positive habits through an intuitive and visually soothing interface.
 
-### 2. [Portfolio Website](https://kmccol1.github.io/)
-A fully responsive HTML and CSS website showcasing my web development expertise. This repository contains its source code.
+### 2. [ShowMeTasks](https://github.com/kmccol1/showmetasks)
+A full-stack to-do list application developed with Java Spring Boot and React. ShowMeTasks provides a clean and responsive interface for managing tasks, featuring user authentication, task creation and deletion, and RESTful APIs to enable seamless communication between the backend and frontend.
 
 ## Technologies Used
 
