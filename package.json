@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "intro to prof web dev assignment 4",
   "main": "grading.js",
+  "homepage": "https://kmccol1.github.io/",
   "scripts": {
     "test": "jest",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.17.0",
+    "gh-pages": "^6.3.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0"
   },
