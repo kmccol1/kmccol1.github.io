@@ -24,7 +24,7 @@ I am committed to crafting secure, scalable, and user-centric solutions in web d
 
 ## Key Projects
 
-### 1. [Flask Timer App](https://github.com/kmccol1/myTimer-app)
+### 1. [Flask Timer App](https://github.com/kmccol1/myTimer)
 A minimalistic web application built using Python Flask, focusing on stopwatch functionality. This app follows the Unix philosophy of simplicity, offering users a sleek and responsive interface to track time effectively. Features include storing and displaying previous times, with plans for future enhancements such as timer functionality and user authentication.
 
 ### 2. [ShowMeTasks](https://github.com/kmccol1/showmetasks)
