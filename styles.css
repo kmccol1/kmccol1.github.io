@@ -21,8 +21,9 @@ h1 {
     margin: 0;
 }
 
+/* Valentine's Day header text with red accents */
 h2 {
-    color: #4a6fa5; /* Mid-tone blue */
+    color: #d15d6a; /* Soft Valentine's Day red */
     font-style: italic;
     margin: 0;
 }
@@ -63,22 +64,22 @@ section {
     backdrop-filter: blur(5px); /* Slight blur for a frosty effect */
 }
 
-/* List styling */
+/* Valentine's Day - Hearts around list items */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 ul li::before {
-    content: '❄️'; /* Snowflake icon for a winter touch */
+    content: '❤️'; /* Heart icon for a Valentine's touch */
     margin-right: 10px;
-    color: #5d82a8; /* Match the theme color */
+    color: #d15d6a; /* Soft Valentine's Day red */
 }
 
-/* Horizontal rule styling */
+/* Valentine's touch for horizontal rule */
 hr {
     margin: 20px 0;
-    border: 1px solid #c9e4f6; /* Light frosty blue */
+    border: 1px solid #f5b7b1; /* Soft pink */
 }
 
 /* Footer styling */
@@ -91,4 +92,9 @@ footer {
     padding: 15px 0;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle depth */
+}
+
+/* Valentine's Day accent for footer */
+footer p {
+    color: #d15d6a; /* Soft Valentine's Day red for footer text */
 }
