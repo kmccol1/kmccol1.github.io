@@ -1,4 +1,4 @@
-![Build Status](https://github.com/kmccol1/kmccol1.github.io/actions/workflows/autograding.yml/badge.svg)
+[![deployment](https://github.com/kmccol1/kmccol1.github.io/actions/workflows/autograding.yml/badge.svg)](https://github.com/kmccol1/kmccol1.github.io/actions/workflows/autograding.yml)
 
 # Kyle McColgan – Technology Professional
 
@@ -8,15 +8,15 @@ Welcome to my repository! This repository houses the source code for my website,
 
 ## About Me
 
-Hi, I'm Kyle McColgan—a technology professional and security enthusiast based in Saint Louis. I specialize in building efficient, user-friendly websites. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
+Hi, I'm Kyle McColgan—a technology professional and security enthusiast based in Saint Louis. I enjoy crafting custom, practical web solutions. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
 
 I'm always excited to connect with others in the tech community. Whether it's collaborating on a project or sharing knowledge, let’s create something impactful together!
 
 ## Skills
 
-- **Programming Languages:** Proficient in HTML, CSS, JavaScript, and C++ for efficient and secure solutions.
+- **Programming Languages:** Proficient in Java and JavaScript, and SQL.
 - **Web Development:** Focused on creating responsive, accessible, and user-centric designs.
-- **Cybersecurity:** Hands-on experience with network programming, IT security fundamentals, and secure coding practices.
+- **Cybersecurity:** Hands-on experience with IT security fundamentals, and secure coding practices.
 
 ## Vision
 
