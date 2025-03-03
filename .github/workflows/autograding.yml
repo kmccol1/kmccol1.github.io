@@ -3,7 +3,7 @@
 #Date: 3 March 2025
 #Description: GitHub Actions workflow file for GitHub Pages deployment process.
 
-SO name: autograding
+name: autograding
 
 on:
   push:
