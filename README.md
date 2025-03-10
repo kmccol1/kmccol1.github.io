@@ -24,8 +24,8 @@ I am committed to crafting secure, scalable, and user-centric solutions in web d
 
 ## Key Projects
 
-### 1. [Flask Timer App](https://github.com/kmccol1/myTimer)
-A minimalistic web application built using Python Flask, focusing on stopwatch functionality. This app follows the Unix philosophy of simplicity, offering users a sleek and responsive interface to track time effectively. Features include storing and displaying previous times, with plans for future enhancements such as timer functionality and user authentication.
+### 1. [Snapshot Management Script](https://github.com/kmccol1/snapper-backups)
+Automated Snapshot Management Script: A Bash script designed to automate and manage system snapshots using Snapper. This project enhances system reliability by creating, managing, and restoring snapshots efficiently. The system automatically transfers snapshot contents to a local host for external storage, ensuring minimal storage usage while maintaining comprehensive versioning. The script is lightweight, user-friendly, and integrates seamlessly with Linux environments.
 
 ### 2. [ShowMeTasks](https://github.com/kmccol1/showmetasks)
 A full-stack to-do list application developed with Java Spring Boot and React. ShowMeTasks provides a clean and responsive interface for managing tasks, featuring user authentication, task creation and deletion, and RESTful APIs to enable seamless communication between the backend and frontend.
@@ -34,7 +34,7 @@ A full-stack to-do list application developed with Java Spring Boot and React. S
 
 - **Languages:** HTML, CSS, JavaScript, React
 - **Testing Framework:** Jest, for unit testing JavaScript functionality
-- **Deployment:** GitHub Pages for hosting and CI/CD
+- **Deployment:** GitHub Pages, for hosting and CI/CD
 - **Version Control:** Git, managed through GitHub for collaboration and tracking changes
 
 ## How to Use
@@ -57,7 +57,6 @@ To explore the website locally:
 
 I'm always open to new opportunities, collaborations, or discussions about technology. Feel free to connect with me:
 
-- **Email:** [kdmbus21@gmail.com](mailto:kdmbus21@gmail.com)
 - **LinkedIn:** [Kyle McColgan](https://www.linkedin.com/in/kylemccolgan/)
 - **GitHub:** [kmccol1](https://github.com/kmccol1)
 
