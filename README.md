@@ -4,13 +4,13 @@
 
 Welcome to my repository! This repository houses the source code for my website, built to showcase my technical skills, projects, and journey in web development. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
 
-![Portfolio Screenshot](./images/Screenshot_20241202_215749.png)
+![Portfolio Screenshot](./images/Screenshot_20250310_165300.png)
 
 ## About Me
 
-Hi, I'm Kyle McColgan—a technology professional and security enthusiast based in Saint Louis. I enjoy crafting custom, practical web solutions. My approach balances usability and security, ensuring high performance and seamless user experiences across all my projects.
+Hi, I'm Kyle McColgan! I am a technology professional and security enthusiast based in Saint Louis. I specialize in building custom, practical web solutions that prioritize both usability and security. My approach focuses on a simplified user experiences, as well as robust security practices to create scalable and efficient applications.
 
-I'm always excited to connect with others in the tech community. Whether it's collaborating on a project or sharing knowledge, let’s create something impactful together!
+I'm always open to collaborate and exchange ideas with others in the community. Whether it's contributing to a project, discussing security concepts, or tackling complex challenges, let's build something impactful together!
 
 ## Skills
 
@@ -20,7 +20,7 @@ I'm always excited to connect with others in the tech community. Whether it's co
 
 ## Vision
 
-I am committed to crafting secure, scalable, and user-centric solutions in web development and network security. My mission is to create accessible digital experiences that empower users, advance cybersecurity practices, and set new standards in usability and performance. Driven by curiosity and a growth mindset, I continuously seek out learning opportunities to stay at the forefront of technology. I envision a future where my work not only keeps pace with the evolving tech landscape but also contributes meaningfully to the safety, inclusivity, and integrity of the digital world.
+I am committed to building secure, scalable solutions in the web development space. My goals include creating accessible digital experiences that empower and uplift users, bring light to common cybersecurity practices, and set new standards for security and accessibility. With a curiosity-driven mindset, I am committed to continuous learning, ensuring that my work not only keeps pace with the evolving tech landscape but also contributes to a safer, more inclusive, and resilient digital world.
 
 ## Key Projects
 
