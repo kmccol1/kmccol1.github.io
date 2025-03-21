@@ -2,15 +2,20 @@
 
 # Kyle McColgan – Technology Professional
 
-Welcome to my repository! This repository houses the source code for my website, built to showcase my technical skills, projects, and journey in web development. Explore my work and feel free to reach out if you'd like to collaborate or learn more.
+Welcome! 👋
+
+This repository contains the source code for my personal website, designed to showcase my technical skills, projects, and journey in web development. Built with React, Vite, and GitHub Pages, this site reflects my approach to creating efficient, user-friendly, and secure web solutions.
+
+Feel free to explore my work, and don’t hesitate to reach out if you're interested in collaborating, sharing insights, or discussing new ideas!
 
 ![Portfolio Screenshot](./images/Screenshot_20250310_165300.png)
+*A glimpse of my personal website, with a screenshot, designed to highlight my work in web development and security.*
 
 ## About Me
 
-Hi, I'm Kyle McColgan! I am a technology professional and security enthusiast based in Saint Louis. I specialize in building custom, practical web solutions that prioritize both usability and security. My approach focuses on a simplified user experiences, as well as robust security practices to create scalable and efficient applications.
+Hi, I'm Kyle McColgan! I am a technology professional and security enthusiast based in Saint Louis. I specialize in building custom, practical web solutions that prioritize both usability and security. My approach emphasizes streamlined user experiences alongside robust security practices, ensuring that applications are not only efficient and scalable but also resilient.
 
-I'm always open to collaborate and exchange ideas with others in the community. Whether it's contributing to a project, discussing security concepts, or tackling complex challenges, let's build something impactful together!
+I’m always eager to collaborate, exchange ideas, and tackle complex challenges with fellow developers and security professionals. Whether it’s contributing to open-source projects, discussing emerging security trends, or refining innovative web solutions—let’s build something impactful together!
 
 ## Skills
 
