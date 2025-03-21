@@ -1,6 +1,6 @@
 #Filename: autograding.yml
 #Author: Kyle McColgan
-#Date: 3 March 2025
+#Date: 21 March 2025
 #Description: GitHub Actions workflow file for GitHub Pages deployment process.
 
 name: autograding
@@ -29,6 +29,9 @@ jobs:
 
       - name: Install package dependencies
         run: npm install
+
+      - name: Build the project
+        run: npm run build  # Ensures ./build exists...
 
       - name: Execute test cases
         run: npm test
