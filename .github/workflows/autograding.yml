@@ -39,7 +39,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.NEW_PORTFOLIO_SITE }} #Reference the new token, correctly.
+          github_token: ${{ secrets.new-portfolio-site }} #Add new token...
           publish_dir: ./build
           publish_branch: gh-pages
           user_name: kmccol1
