@@ -1,6 +1,6 @@
 #Filename: autograding.yml
 #Author: Kyle McColgan
-#Date: 21 March 2025
+#Date: 24 March 2025
 #Description: GitHub Actions workflow file for GitHub Pages deployment process.
 
 name: autograding
@@ -8,14 +8,14 @@ name: autograding
 on:
   push:
     branches:
-      - main  # Only trigger on main.
+      - main
   pull_request:
     branches:
-      - main  # Run tests.
+      - main
 
 jobs:
   build:
-    if: github.ref != 'refs/heads/gh-pages'  # Skip if on gh-pages...
+    if: github.ref != 'refs/heads/gh-pages'
     runs-on: ubuntu-latest
 
     steps:
@@ -39,7 +39,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.new-portfolio-site }} #Add new token...
+          github_token: ${{ secrets.NEW_PORTFOLIO_SITE }} #Fix token reference...
           publish_dir: ./build
           publish_branch: gh-pages
           user_name: kmccol1

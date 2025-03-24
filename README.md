@@ -13,7 +13,7 @@ Feel free to explore my work, and don’t hesitate to reach out if you're intere
 
 ## About Me
 
-Hi, I'm Kyle McColgan! I am a technology professional and security enthusiast based in Saint Louis. I specialize in building custom, practical web solutions that prioritize both usability and security. My approach emphasizes streamlined user experiences alongside robust security practices, ensuring that applications are not only efficient and scalable but also resilient.
+Hi, I'm Kyle McColgan! I'm a technology professional and security enthusiast based in Saint Louis. I specialize in building custom, practical web solutions that prioritize both usability and security. My approach emphasizes streamlined user experiences alongside robust security practices, ensuring that applications are not only efficient and scalable but also resilient.
 
 I’m always eager to collaborate, exchange ideas, and tackle complex challenges with fellow developers and security professionals. Whether it’s contributing to open-source projects, discussing emerging security trends, or refining innovative web solutions—let’s build something impactful together!
 
