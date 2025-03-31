@@ -25,7 +25,11 @@ I’m always eager to collaborate, exchange ideas, and tackle complex challenges
 
 ## Vision
 
-I am committed to building secure, scalable solutions in the web development space. My goals include creating accessible digital experiences that empower and uplift users, bring light to common cybersecurity practices, and set new standards for security and accessibility. With a curiosity-driven mindset, I am committed to continuous learning, ensuring that my work not only keeps pace with the evolving tech landscape but also contributes to a safer, more inclusive, and resilient digital world.
+I envision a digital landscape where security, accessibility, and innovation coexist seamlessly. My mission is to build secure, scalable, and user-first web solutions that empower individuals and organizations to navigate the online world with confidence.
+
+Guided by a commitment to inclusivity, security, and continuous growth, I strive to develop technologies that break barriers, raise awareness of cybersecurity best practices, and set new standards for digital resilience.
+
+As technology evolves, so does my drive to learn, adapt, and contribute to a future where digital experiences are not just functional, but also safe, intuitive, and empowering for all.
 
 ## Key Projects
 
