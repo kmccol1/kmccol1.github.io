@@ -8,7 +8,7 @@ This repository contains the source code for my personal website, designed to sh
 
 Feel free to explore my work, and don’t hesitate to reach out if you're interested in collaborating, sharing insights, or discussing new ideas!
 
-![Portfolio Screenshot](./images/Screenshot_20250310_165300.png)
+![Portfolio Screenshot](./images/Screenshot_20250404_161217.png)
 *A glimpse of my personal website, with a screenshot, designed to highlight my work in web development and security.*
 
 ## About Me

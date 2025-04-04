@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #f4f8ef; /* Soft, fresh greenish-white */
-    color: #2e4a29; /* Deep, muted green */
+    background-color: #f0f4f8; /* Soft, airy sky blue */
+    color: #2d2d2d; /* Neutral dark gray for text */
 }
 
 /* Header styles */
@@ -16,14 +16,13 @@ header {
 
 h1 {
     font-size: 2.5em;
-    color: #216e39; /* Deep emerald green */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    color: #4a6fa5; /* Serene slate blue */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
     margin: 0;
 }
 
-/* March Theme header text with gold accents */
 h2 {
-    color: #cdaa50; /* Rich gold */
+    color: #a678b2; /* Soft lavender */
     font-style: italic;
     margin: 0;
 }
@@ -34,9 +33,9 @@ h2 {
     max-width: 400px;
     height: auto;
     object-fit: cover;
-    border: 8px solid #216e39; /* Emerald green border */
+    border: 8px solid #4a6fa5; /* Slate blue */
     border-radius: 50%;
-    box-shadow: 0px 0px 25px rgba(34, 139, 34, 0.4); /* Green glow effect */
+    box-shadow: 0px 0px 25px rgba(74, 111, 165, 0.3); /* Soft blue glow */
     transition: transform 0.3s ease-in-out;
     margin-top: 15px;
 }
@@ -59,27 +58,27 @@ section {
     border-radius: 12px;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    border: 1px solid #c5d1a4; /* Soft sage green border */
-    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #dbe6f1; /* Light blue-gray border */
+    backdrop-filter: blur(4px);
 }
 
-/* March Theme - Shamrocks around list items */
+/* Bloom icon for spring */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 ul li::before {
-    content: '🍀'; /* Shamrock icon for a March touch */
+    content: '🌸'; /* Cherry blossom icon */
     margin-right: 10px;
-    color: #216e39; /* Emerald green */
+    color: #a678b2; /* Lavender-pink accent */
 }
 
-/* March-themed horizontal rule */
+/* Horizontal rule */
 hr {
     margin: 20px 0;
-    border: 1px solid #cdaa50; /* Gold accent */
+    border: 1px solid #a8c4e8; /* Subtle pastel blue */
 }
 
 /* Footer styling */
@@ -87,14 +86,13 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
-    color: #216e39;
-    background-color: #c5d1a4; /* Light sage green */
+    color: #4a6fa5;
+    background-color: #e2eaf3; /* Light soft blue */
     padding: 15px 0;
     border-radius: 8px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* March accent for footer */
 footer p {
-    color: #cdaa50; /* Gold for festive elegance */
+    color: #a678b2; /* Lavender */
 }
