@@ -6,6 +6,9 @@ body {
     overflow-x: hidden;
     background-color: #f0f4f8; /* Soft, airy sky blue */
     color: #2d2d2d; /* Neutral dark gray for text */
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
 }
 
 /* Header styles */
@@ -58,21 +61,42 @@ section {
     border-radius: 12px;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     border: 1px solid #dbe6f1; /* Light blue-gray border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(4px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transform transition */
 }
 
-/* Bloom icon for spring */
+section:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); /* Deeper shadow on hover */
+    transform: translateY(-4px); /* Lift the entire section */
+}
+
 ul {
     list-style-type: none;
     padding: 0;
 }
 
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateY(-2px);
+}
+
 ul li::before {
-    content: '🌸'; /* Cherry blossom icon */
-    margin-right: 10px;
-    color: #a678b2; /* Lavender-pink accent */
+    content: '💦'; /* Raindrops icon for April showers */
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+ul li:hover::before {
+    transform: translateY(4px);
+    opacity: 0.7;
 }
 
 /* Horizontal rule */
@@ -91,6 +115,24 @@ footer {
     padding: 15px 0;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    .profile-img {
+        border-width: 5px;
+    }
 }
 
 footer p {
