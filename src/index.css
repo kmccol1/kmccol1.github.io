@@ -1,40 +1,84 @@
 /* index.css - General page setup for the root entry point */
 
-/* Reset some default margins and paddings */
+/* Global reset and body styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* General body setup for the site */
+/* Body Styling */
 body {
-    background-color: #f0f4f8; /* Light blue background */
-    color: #2d2d2d; /* Dark text for readability */
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
+    background-color: #f0f4f8;
+    color: #2d2d2d;
+    letter-spacing: 0.3px;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
 }
 
-/* Root container - make sure site fills the screen properly */
-#root {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/* Smooth fade-in animation for the entire body */
+/* Fade animations */
 @keyframes fadeIn {
     to {
         opacity: 1;
     }
 }
-body {
-    opacity: 0;
-    animation: fadeIn 1s ease forwards;
+
+/* Root div setup */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #ffffff;
 }
 
-/* Align footer at the bottom of the screen */
-footer {
-    margin-top: auto; /* Push footer to the bottom */
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #dbe6f1;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+    backdrop-filter: blur(4px);
+    animation: fadeInSection 0.6s ease-in-out;
+}
+
+@keyframes fadeInSection {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+p {
+    margin-bottom: 15px; /* Adjust as needed for paragraph spacing */
+    line-height: 1.8; /* Ensure readability */
+}
+
+:focus {
+    outline: 2px dashed #4a6fa5;
+    outline-offset: 4px;
+}
+
+
+/* Media query */
+@media (max-width: 600px) {
+    body {
+        background-color: #eaf0f9; /* Light blue background for small screens */
+    }
+    #root {
+        padding: 10px;
+    }
 }

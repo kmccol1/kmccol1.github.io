@@ -1,21 +1,19 @@
 /* App.css - Core component styles for the React app */
 
-/* Make sure the site fills the screen properly */
-.App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+/* App container styling */
+.container {
+    padding: 20px;
+    background-color: #ffffff; /* Ensure background matches main styles */
 }
 
-/* Section within the site for central content */
+/* Section styles */
 section {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 20px;
     margin: 20px 0;
-    border: 1px solid #dbe6f1;
+    padding: 20px;
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: #f8f9fc; /* Light background for sections */
+    transition: all 0.3s ease-in-out;
 }
 
 section:hover {
@@ -23,47 +21,30 @@ section:hover {
     transform: translateY(-4px);
 }
 
-/* Apply styles for the header of the site */
+/* Component-specific styles (header, footer, etc.) */
 header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
     color: #4a6fa5;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile section styling */
-.profile-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    object-fit: cover;
-    border: 8px solid #4a6fa5;
-    border-radius: 50%;
-    box-shadow: 0px 0px 25px rgba(74, 111, 165, 0.3);
-    transition: transform 0.3s ease-in-out;
-    margin-top: 15px;
-}
-
-.profile-img:hover {
-    transform: scale(1.05);
-}
-
-/* Footer styles... */
 footer {
-    text-align: center;
-    margin-top: 20px;
+    background-color: #e2eaf3;
     font-size: 0.9em;
     color: #4a6fa5;
-    background-color: #e2eaf3;
-    padding: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+}
+
+/* Adding smooth scroll effect for the page */
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    margin: 30px 0;
+    border-top: 1px solid #a8c4e8;
 }
 
 footer p {
+    font-weight: 600;
     color: #a678b2;
 }

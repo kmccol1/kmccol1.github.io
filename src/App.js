@@ -5,7 +5,7 @@
 
 import React from 'react';
 import './styles.css';
-//import './App.css';
+import './App.css';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Dedication from './components/Dedication';
