@@ -4,12 +4,14 @@
 
 Welcome! 👋
 
-This repository contains the source code for my personal website, designed to showcase my technical skills, projects, and journey in web development. Built with React, Vite, and GitHub Pages, this site reflects my approach to creating efficient, user-friendly, and secure web solutions.
+This repository contains the source code for my personal website, designed to showcase my technical skills, projects, and journey in web development. Built with React, this site reflects my approach to creating user-friendly, and secure web solutions.
 
 Feel free to explore my work, and don’t hesitate to reach out if you're interested in collaborating, sharing insights, or discussing new ideas!
 
 ![Portfolio Screenshot](./images/Screenshot_20250404_161217.png)
 *A glimpse of my personal website, with a screenshot, designed to highlight my work in web development and security.*
+
+🌐 [Visit the live site](https://kmccol1.github.io/kmccol1.github.io/)
 
 ## About Me
 
@@ -41,10 +43,10 @@ A full-stack to-do list application developed with Java Spring Boot and React. S
 
 ## Technologies Used
 
-- **Languages:** HTML, CSS, JavaScript, React
+- **Languages:** HTML, CSS, JavaScript, and React.
 - **Testing Framework:** Jest, for unit testing JavaScript functionality
-- **Deployment:** GitHub Pages, for hosting and CI/CD
-- **Version Control:** Git, managed through GitHub for collaboration and tracking changes
+- **Deployment:** GitHub Pages, for deployment.
+- **Version Control:** Git, managed through GitHub for collaboration and tracking changes.
 
 ## How to Use
 
@@ -55,6 +57,36 @@ To explore the website locally:
     git clone https://github.com/kmccol1/kmccol1.github.io.git
     ```
 2. Open `index.html` in your preferred web browser to view the site.
+
+## Project Structure
+
+kmccol1.github.io/
+├── .git/                  # Git version control directory
+├── .github/               # GitHub-specific files (e.g., workflows)
+│   └── workflows/
+│       └── ci.yml
+├── node_modules/          # Node.js packages (auto-generated)
+├── public/                # Public assets served as-is
+│   └── index.html
+├── images/                # Static images used across the site
+│   └── profile.jpg
+├── assets/                # Fonts, icons, and global styles
+│   └── styles/
+│       └── global.css
+├── src/                   # Source code for the React app
+│   ├── components/        # Reusable UI components
+│   │   ├── Header.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx            # Root React component
+│   ├── index.css          # Global styles
+│   └── main.jsx           # Entry point
+├── __tests__/             # Unit and integration tests
+│   └── App.test.jsx
+├── build/                 # Production build output (auto-generated)
+├── .gitignore             # Files and directories to ignore in Git
+├── package.json           # Project metadata and dependencies
+├── vite.config.js         # Vite configuration
+└── README.md              # Project documentation
 
 ## Future Plans
 
