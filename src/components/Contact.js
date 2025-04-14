@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-        <section id="contact">
+        <section id="contact" aria-label="Contact Information">
             <h2>Contact Information</h2>
             <ul>
                 <li><strong>GitHub:</strong> <a href="https://www.github.com/kmccol1">github.com/kmccol1</a></li>

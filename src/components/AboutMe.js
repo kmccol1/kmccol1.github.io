@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe() {
     return (
-        <section id="about-me">
+        <section id="about-me" aria-label="About Me">
             <h2>About Me</h2>
             <p>
                 Hi, I'm Kyle McColgan. I'm an IT professional proudly born, raised, and based in Saint Louis, Missouri. I specialize in full-stack web development and information security, with a focus on building secure, scalable solutions that make a real-world impact.

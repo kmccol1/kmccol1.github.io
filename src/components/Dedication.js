@@ -2,7 +2,7 @@ import React from 'react';
 
 function Dedication() {
     return (
-        <section id="dedication">
+        <section id="dedication" aria-label="Dedication">
             <h2>Dedication</h2>
             <p>
                 This website is lovingly dedicated to my family and closest friends, who have been my rock throughout every step of my journey.

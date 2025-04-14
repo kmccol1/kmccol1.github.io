@@ -11,7 +11,7 @@ Feel free to explore my work, and don’t hesitate to reach out if you're intere
 ![Portfolio Screenshot](./images/Screenshot_20250404_161217.png)
 *A glimpse of my personal website, with a screenshot, designed to highlight my work in web development and security.*
 
-🌐 [Visit the live site](https://kmccol1.github.io/kmccol1.github.io/)
+*🌐 [Visit the live site](https://kmccol1.github.io/kmccol1.github.io/)*
 
 ## About Me
 
@@ -61,32 +61,31 @@ To explore the website locally:
 ## Project Structure
 
 kmccol1.github.io/
-├── .git/                  # Git version control directory
-├── .github/               # GitHub-specific files (e.g., workflows)
+├── .git/                  # Git version control directory.
+├── .github/               # GitHub Actions workflow file.
 │   └── workflows/
-│       └── ci.yml
-├── node_modules/          # Node.js packages (auto-generated)
-├── public/                # Public assets served as-is
+│       └── autograding.yml
+├── node_modules/          # Node.js packages.
+├── public/                # Public assets.
 │   └── index.html
-├── images/                # Static images used across the site
+├── images/                # Static images used across the site.
 │   └── profile.jpg
-├── assets/                # Fonts, icons, and global styles
+├── assets/                # Fonts, icons, and global styles.
 │   └── styles/
 │       └── global.css
-├── src/                   # Source code for the React app
-│   ├── components/        # Reusable UI components
+├── src/                   # Source code for the React app.
+│   ├── components/        # Reusable UI components.
 │   │   ├── Header.jsx
 │   │   └── Footer.jsx
-│   ├── App.jsx            # Root React component
-│   ├── index.css          # Global styles
-│   └── main.jsx           # Entry point
-├── __tests__/             # Unit and integration tests
+│   ├── App.jsx            # Root React component.
+│   ├── index.css          # Global styles.
+│   └── main.jsx           # Entry point.
+├── __tests__/             # Unit and integration tests.
 │   └── App.test.jsx
-├── build/                 # Production build output (auto-generated)
-├── .gitignore             # Files and directories to ignore in Git
-├── package.json           # Project metadata and dependencies
-├── vite.config.js         # Vite configuration
-└── README.md              # Project documentation
+├── build/                 # Production build output.
+├── .gitignore             # Files and directories to ignore in Git.
+├── package.json           # Project metadata and dependencies.
+└── README.md              # Project documentation.
 
 ## Future Plans
 
