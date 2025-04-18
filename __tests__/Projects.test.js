@@ -28,11 +28,11 @@ it('renders the Automated Snapshot Management Script project', () => {
     expect(snapshotProject).toBeInTheDocument();
 });
 
-// it('renders the ShowMeTasks project', () => {
-//     render(<Projects />);
-//     const showMeTasksProject = screen.getByText(/ShowMeTasks/);
-//     expect(showMeTasksProject).toBeInTheDocument();
-// });
+it('renders the ShowMeTasks project', () => {
+    render(<Projects />);
+    const showMeTasksTitle = screen.getByText(/^ShowMeTasks:/);
+    expect(showMeTasksTitle).toBeInTheDocument();
+});
 
 it('renders each project title in bold', () => {
     render(<Projects />);

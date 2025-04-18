@@ -1,8 +1,13 @@
+//Filename: Skills.js
+//Author: Kyle McColgan
+//Date: 18 April 2025
+//Description: Contains the React component for the website skills section.
+
 import React from 'react';
 
 function Skills() {
     return (
-        <section id="skills">
+        <section id="skills" aria-label="Skills">
             <h2>Skills</h2>
             <ul>
                 <li><strong>Programming Languages:</strong> Proficient in Java and JavaScript, with a focus on building scalable, maintainable web applications. Familiar with C++ and Python for backend and system-level development, ensuring efficiency and security in code.</li>

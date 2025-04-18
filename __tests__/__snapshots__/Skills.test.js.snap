@@ -3,6 +3,7 @@
 exports[`matches the snapshot of the Skills section 1`] = `
 <DocumentFragment>
   <section
+    aria-label="Skills"
     id="skills"
   >
     <h2>

@@ -60,6 +60,7 @@ To explore the website locally:
 
 ## Project Structure
 
+'''
 kmccol1.github.io/
 ├── .git/                  # Git version control directory.
 ├── .github/               # GitHub Actions workflow file.
@@ -86,6 +87,7 @@ kmccol1.github.io/
 ├── .gitignore             # Files and directories to ignore in Git.
 ├── package.json           # Project metadata and dependencies.
 └── README.md              # Project documentation.
+'''
 
 ## Future Plans
 
