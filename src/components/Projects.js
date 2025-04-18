@@ -1,8 +1,13 @@
+//Filename: Projects.js
+//Author: Kyle McColgan
+//Date: 18 April 2025
+//Description: Contains the React component for the website projects section.
+
 import React from 'react';
 
 function Projects() {
     return (
-        <section id="projects">
+        <section id="projects" aria-label="Projects">
             <h2>Projects</h2>
             <ul>
                 <li>

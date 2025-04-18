@@ -1,13 +1,14 @@
+// __tests__/Mission.test.js
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Mission from '../src/components/Mission';
 
-// it('renders the Mission section', () => {
-//     render(<Mission />);
-//     const section = screen.getByRole('region', { name: /Mission Statement/i });
-//     expect(section).toBeInTheDocument();
-// });
+it('renders the Mission section', () => {
+    render(<Mission />);
+    const section = screen.getByRole('region', { name: /Mission Statement/i });
+    expect(section).toBeInTheDocument();
+});
 
 it('renders the section title correctly', () => {
     render(<Mission />);
@@ -39,11 +40,11 @@ it('renders the third paragraph correctly', () => {
     expect(thirdParagraph).toBeInTheDocument();
 });
 
-// it('has the correct ARIA role of "region"', () => {
-//     render(<Mission />);
-//     const section = screen.getByRole('region', { name: /Mission Statement/i });
-//     expect(section).toBeInTheDocument();
-// });
+it('has the correct ARIA role of "region"', () => {
+    render(<Mission />);
+    const section = screen.getByRole('region', { name: /Mission Statement/i });
+    expect(section).toBeInTheDocument();
+});
 
 it('matches the snapshot of the Mission section', () => {
     const { asFragment } = render(<Mission />);

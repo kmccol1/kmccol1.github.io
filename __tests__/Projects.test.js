@@ -4,11 +4,11 @@ import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Projects from '../src/components/Projects';
 
-// it('renders the Projects section', () => {
-//     render(<Projects />);
-//     const section = screen.getByRole('region', { name: /Projects/i });
-//     expect(section).toBeInTheDocument();
-// });
+it('renders the Projects section', () => {
+    render(<Projects />);
+    const section = screen.getByRole('region', { name: /Projects/i });
+    expect(section).toBeInTheDocument();
+});
 
 it('renders the section heading "Projects"', () => {
     render(<Projects />);
