@@ -3,7 +3,7 @@
 exports[`matches the snapshot of the History section 1`] = `
 <DocumentFragment>
   <section
-    aria-label="History"
+    aria-label="Professional History"
     id="history"
   >
     <h2>
