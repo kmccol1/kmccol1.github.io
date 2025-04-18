@@ -8,7 +8,7 @@ This repository contains the source code for my personal website, designed to sh
 
 Feel free to explore my work, and don’t hesitate to reach out if you're interested in collaborating, sharing insights, or discussing new ideas!
 
-![Portfolio Screenshot](./images/Screenshot_20250404_161217.png)
+![Portfolio Screenshot](./images/Screenshot_20250418_163203-1.png)
 *A glimpse of my personal website, with a screenshot, designed to highlight my work in web development and security.*
 
 *🌐 [Visit the live site](https://kmccol1.github.io/kmccol1.github.io/)*
@@ -50,39 +50,85 @@ A full-stack to-do list application developed with Java Spring Boot and React. S
 
 ## How to Use
 
-To explore the website locally:
+Follow the steps below to run the site locally on your machine:
 
-1. Clone the repository:
+1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/kmccol1/kmccol1.github.io.git
+    cd kmccol1.github.io
     ```
-2. Open `index.html` in your preferred web browser to view the site.
+
+2. **Install project dependencies:**
+
+    Make sure you have [Node.js](https://nodejs.org/) installed. Then, install the required packages:
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+
+    Run the following command to start the local dev server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. **View the site:**
+
+    After the server starts, open your browser and navigate to:
+
+    ```
+    http://localhost:5173
+    ```
+
+    This will display the website running locally in development mode.
+
+---
+
 
 ## Project Structure
 
 ```
 kmccol1.github.io/
 ├── .git/                  # Git version control directory.
-├── .github/               # GitHub Actions workflow file.
+├── .github/               
 │   └── workflows/
 │       └── autograding.yml
 ├── node_modules/          # Node.js packages.
 ├── public/                # Public assets.
 │   └── index.html
 ├── images/                # Static images used across the site.
-│   └── profile.jpg
+│   └── kdm.png
 ├── assets/                # Fonts, icons, and global styles.
 │   └── styles/
 │       └── global.css
 ├── src/                   # Source code for the React app.
 │   ├── components/        # Reusable UI components.
-│   │   ├── Header.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx            # Root React component.
+│   │   ├── Header.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   ├── Mission.js
+│   │   ├── Dedication.js
+│   │   ├── AboutMe.js
+│   │   ├── Contact.js
+│   │   └── History.js
+│   │         
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
 │   ├── index.css          # Global styles.
-│   └── main.jsx           # Entry point.
+│   └── styles.css
 ├── __tests__/             # Unit and integration tests.
-│   └── App.test.jsx
+│   ├── Header.test.js
+│   ├── Skills.test.js
+│   ├── Projects.test.js
+│   ├── Mission.test.js
+│   ├── Dedication.test.js
+│   ├── AboutMe.test.js
+│   ├── Contact.test.js
+│   └── History.test.js
 ├── build/                 # Production build output.
 ├── .gitignore             # Files and directories to ignore in Git.
 ├── package.json           # Project metadata and dependencies.
@@ -94,6 +140,16 @@ kmccol1.github.io/
 - **Enhanced Features:** Introduce dynamic, interactive components using JavaScript.
 - **Security Upgrades:** Adopt advanced secure web development practices.
 - **Project Showcase:** Add more projects highlighting C++ and cybersecurity work.
+
+## Acknowledgements
+
+We would like to express our gratitude to the following:
+
+- **React**: For providing the powerful library that powers the front-end of this project.
+- **FontAwesome**: For providing accessible and scalable icons that enhance the visual design.
+- **Node.js**: For providing the runtime environment that powers the server-side of the project.
+- **GitHub Pages**: For hosting the repository and making collaboration possible.
+- **Open Source Community**: For sharing knowledge and developing tools that benefit developers worldwide.
 
 ## Contact
 
